@@ -10,6 +10,7 @@ import { TermsComponent } from './terms/terms.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ArticlesModule } from './articles/articles.module';
 import { ProductsModule } from './products/products.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,8 @@ import { ProductsModule } from './products/products.module';
     NgbModule,
     ArticlesModule,
     ProductsModule,
+    BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule
   ],
   providers: [],
