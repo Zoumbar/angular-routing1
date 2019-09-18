@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
   navbarOpen = false;
 
-toggleNavbar() {
+  toggleNavbar() {
   this.navbarOpen = !this.navbarOpen;
 }
   title = 'angular-routing';
